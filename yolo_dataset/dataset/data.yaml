@@ -1,0 +1,33 @@
+# Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
+# Biển số xe dataset (custom) — based on YOLO format
+# Example usage: yolo train data=biensoxe.yaml
+# Parent structure:
+# ├── yolo_dataset
+# │   ├── dataset
+# │   │   ├── images
+# │   │   └── labels
+
+# Train/val sets can be specified as:
+# 1) dir: path/to/images
+# 2) file: path/to/images.txt
+# 3) list: [path1, path2, ...]
+
+path: /content/drive/MyDrive/yolo_dataset/dataset   # dataset root dir
+train: images                                       # train images (relative to 'path')
+val: images                                         # val images (relative to 'path')
+test:                                               # optional test set
+
+# Classes
+names:
+  0: biensoxe
+
+# Info
+info:
+  year: 2025
+  version: "1.0"
+  contributor: "Label Studio"
+
+# Notes:
+# - Make sure each image in images/ has a corresponding .txt label in labels/
+# - The 'nc' field is not needed here because 'names:' defines the class count automatically.

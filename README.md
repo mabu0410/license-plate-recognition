@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hệ Thống Nhận Dạng Biển Số Xe Việt Nam
 
 ## Mô Tả
@@ -239,3 +240,6 @@ Xem file LICENSE để biết thêm chi tiết.
 - K-Nearest Neighbors: https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm
 - Image Processing: https://en.wikipedia.org/wiki/Digital_image_processing
 
+=======
+# license-plate-recognition
+>>>>>>> b3af6b88b6e2efaa91e1ea3046e54091b01f88c0
